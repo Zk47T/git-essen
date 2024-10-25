@@ -1,0 +1,12 @@
+git diff                  - compare file before and after (not in staging area or already commit)
+git add "namefile"        - add file to staging area
+git commit -m "comment"   - commit staging area to local reposity
+git push                  - push to remote reposity
+git log                   - check log history of git
+git show *checksum *      - check specific log
+git log -p                - show all detail log
+git log --grep='main'     - git log filter with 'main'
+git mv *old* *new*        - change file name
+git restore --stage **    - roll back previous version of file
+git checkout *checksum*   - change to this commit version, which will change to new branch detached
+
