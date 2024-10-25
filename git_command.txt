@@ -9,4 +9,5 @@ git log --grep='main'     - git log filter with 'main'
 git mv *old* *new*        - change file name
 git restore --stage **    - roll back previous version of file
 git checkout *checksum*   - change to this commit version, which will change to new branch detached
-
+git log --oneline         - show log in one line format
+git revert *checksum*     - change to previous version
